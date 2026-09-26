@@ -62,3 +62,11 @@
 周成、吕丝丝、唐承财（2026）发表于《地理科学进展》的研究同时使用了面板固定效应、空间杜宾模型、两类空间权重矩阵、空间效应分解、LISA 与渐进距离阈值分析。该类公开研究说明了后续版本值得覆盖的功能组合，但本 Skill 不复制其具体变量、阈值、结论或模型设定。
 
 > 周成, 吕丝丝, 唐承财. 低空经济赋能文旅产业发展的作用机制与空间效应：基于消费扩容提质与绿色技术创新双视角[J]. 地理科学进展, 2026, 45(7): 1468-1486. DOI: 10.18306/dlkxjz.2026.07.007.
+
+## Development Progress — September 2026
+
+The v0.2–v0.4 methodology extensions have completed internal validation using a real provincial panel dataset.
+
+The validated modules include spatial weight matrix extensions, exploratory spatial data analysis, LISA, and distance-decay analysis.
+
+Public release integration, anonymization, and documentation updates are pending.
