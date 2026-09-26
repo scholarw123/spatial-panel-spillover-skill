@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.venv/
+venv/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# User data and generated outputs
+outputs/
+**/outputs/
+data/
+*.xlsx
+*.xls
+*.dta
+*.sav
+*.shp
+*.dbf
+*.shx
+*.geojson
+
+# Keep the public synthetic demo CSV files tracked
+!examples/synthetic_demo/panel.csv
+!examples/synthetic_demo/coordinates.csv
