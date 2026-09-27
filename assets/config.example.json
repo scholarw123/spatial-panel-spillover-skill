@@ -1,0 +1,17 @@
+{
+  "panel": "../examples/synthetic_demo/panel.csv",
+  "coordinates": "../examples/synthetic_demo/coordinates.csv",
+  "output_dir": "../examples/synthetic_demo/outputs",
+  "columns": {
+    "id": "unit", "time": "year", "y": "Y", "x": "X",
+    "controls": ["C1", "C2"], "economic_anchor": "C1"
+  },
+  "seed": 20260401,
+  "permutations": 199,
+  "knn": [3, 4],
+  "weight_distance_bands_km": [220, 420],
+  "economic_method": "gaussian",
+  "cumulative_thresholds_km": [100, 220, 350, 500, 700, 1000],
+  "ring_edges_km": [0, 220, 420, 700, 1100],
+  "decay": {"power": [0.5, 1, 1.5], "exponential": [180, 350, 600]}
+}
